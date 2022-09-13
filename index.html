@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WahWah effect</title>
+</head>
+<body>
+<div class="banner">
+    <img src="img/banner.jpg" alt="baner, gitara akustyczna" class="bannerImg">
+</div>
+<div class="topStrap">
+    <h1 class="topHeader">Dźwięk</h1>
+</div>
+<div class="soundsContent">
+    <h2>Treści na temat dźwięku</h2>
+    <ol>
+        <li>Próbkowanie - odczytywanie liczb z poziomu akustycznego</li>
+        <li>Kwawntyzacja - przyporządkowanie poziomów kwantyzacji każdej próbce</li>
+        <li>Kodowanie - poziomy kwantyzacji zostają przekształcone w kod binarny</li>
+    </ol>
+</div>
+<div class="soundCharacter">
+<h2>Wielkości charakteryzujące dźwięk</h2>
+<ul>
+    <li>częstotliwośc próbkowania</li>
+    <li>wysokość dźwięku</li>
+    <li>widmo dźwięku</li>
+    <li>barwa dźwięku</li>
+</ul>
+</div>
+<div class="soundsBitRate">
+    <h2>Przepływność</h2>
+    <p>Liczba bitów na sekundę czasu, najczęściej na sekundę. BPS</p>
+</div>
+<div class="formats">
+    <h2>Formaty</h2>
+    <ul>
+        <li>AAC - zaawansowane kodowanie audio</li>
+        <li>WMA - Windows Media Audio</li>
+        <li>MIDI - sterowanie syntezatorami</li>
+    </ul>
+</div>
+<div class="soundAnalysis">
+<h2>Analiza dźwięku</h2>
+    <ul>
+        <li>Głośnośc</li>
+        <li>Barwa dźwięku</li>
+        <li>Czas trwania</li>
+        <li>Występowanie okresów ciszy</li>
+        <li>Przesterowanie</li>
+        <li>Szum</li>
+    </ul>
+</div>
+<div class="wahwahEffect">
+    <h2>Efekt WahWah</h2>
+    <p class="opis">Efekt Wah-wah wywodzi się z podłogowego efektu gitarowego z rodziny pedałów ekspresji do gitar elektrycznych oraz basowych. Działa poprzez potencjometr sprzężony z pedałem urządzenia, w czasie nacisku następuje płynna regulacja zakresu częśtotliwości pasma, które ma zostać podbite.</p>
+    <h3>Opcje Wah-wah</h3>
+    <ul>
+        <li><b>Częstotliwość LFO</b> - ustawia ilość drgań</li>
+        <li><b>Faza początkowa LFO</b> - ustawia od jakich dźwięków ma zacząć się drganie (niskich, średnich, wysokich)</li>
+        <li><b>Głębokość</b> - określa zakres częstotliwości przechodzących przez filtr pasmowy. Wyższa wartość głębokości spowoduje większą zmienność dźwięku</li>
+        <li><b>Rezonans</b> - określa stopień rezonansu w filtrze. Wyższe wartości dają bardziej szczytowy efekt</li>
+        <li><b>Przesunięcie częstotliwości Wah-wah</b> - określa jakie częstotliwości mają być podbijane</li>
+    </ul>
+    <div class="trackHreeDiv">
+        <p class="pTrackThree">Ścieżka złączona</p>
+        <audio controls>
+            <source src="sounds/sound3.mp3">
+        </audio>
+    </div>
+    <div class="trackOneDiv">
+        <p class="pTrackOne">Ścieżka przed zmianami</p>
+        <audio controls>
+            <source src="sounds/sound1.mp3">
+        </audio><br>
+        <img src="img/sound1.png" alt="Dźwięk przed zmianami" id="sound1">
+    </div>
+    <div class="trackTwoDiv">
+        <p class="pTrackTwo">Ścieżka po zmianach</p>
+        <audio controls>
+            <source src="sounds/sound2.mp3">
+        </audio><br>
+        <img src="img/sound2.png" alt="Dźwięk po zmianach" id="sound1">
+    </div>
+    
+</div>
+</body>
+</html>
