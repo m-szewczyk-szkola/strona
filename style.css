@@ -70,6 +70,11 @@ article{
 footer{
     padding: 1%;
     color: white;
-    background-color: darkgrey;
+    background-color: darkgray;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
