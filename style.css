@@ -59,6 +59,14 @@ body{
     max-width: 75%;
 }
 
+section{
+    margin-left: 10px;
+}
+
+article{
+    margin-left: 10px;
+}
+
 footer{
     background-color: rgba(233, 233, 233, 0.61);
     text-align: center;
